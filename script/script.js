@@ -18,3 +18,7 @@ console.clear();
 
 //Dichiarazione variabili
 const bound = 100;
+
+//Ciclo for
+for (let i = 1; i <= bound; i++) {
+}
