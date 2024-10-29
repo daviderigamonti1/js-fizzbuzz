@@ -21,4 +21,19 @@ const bound = 100;
 
 //Ciclo for
 for (let i = 1; i <= bound; i++) {
+    //Condizione
+       //Se i è multiplo sia di 3 che di 5 
+    if (i % 5 === 0 && i % 3 === 0) {
+        console.log('FizzBuzz');
+    }
+            //se i è solo multiplo di 5
+    else if (i % 5 === 0) {
+        console.log('Buzz');
+              //se i è solo multiplo di 3  
+    } else if (i % 3 === 0) {
+        console.log('Fizz')
+    } else {
+                   //se i non è multiplo nè di 3 nè di 5 
+        console.log(i + " " + "non è divisibile nè per 3 nè per 5");
+    }
 }
